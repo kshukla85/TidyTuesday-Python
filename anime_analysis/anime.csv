@@ -1,0 +1,51 @@
+anime_id,name,genre,type,episodes,rating,members,year,studios
+1,Death Note,"Mystery, Thriller",TV,37,8.6,2500000,2006,Madhouse
+2,Fullmetal Alchemist: Brotherhood,"Action, Adventure, Fantasy",TV,64,9.1,2000000,2009,Bones
+3,Attack on Titan,"Action, Drama",TV,75,8.8,2200000,2013,Wit Studio
+4,Steins;Gate,"Sci-Fi, Thriller",TV,24,9.0,800000,2011,White Fox
+5,Hunter x Hunter,"Action, Adventure",TV,148,9.0,1200000,2011,Madhouse
+6,Code Geass,"Mecha, Military",TV,50,8.7,1500000,2006,Sunrise
+7,Cowboy Bebop,"Action, Sci-Fi",TV,26,8.9,1300000,1998,Sunrise
+8,One Punch Man,"Action, Comedy",TV,12,8.7,1800000,2015,Madhouse
+9,Mob Psycho 100,"Action, Comedy",TV,12,8.5,900000,2016,Bones
+10,My Hero Academia,"Action, School",TV,113,8.4,2100000,2016,Bones
+11,Naruto,"Action, Adventure",TV,220,8.3,1900000,2002,Pierrot
+12,One Piece,"Action, Adventure",TV,1000,8.7,1600000,1999,Toei Animation
+13,Bleach,"Action, Supernatural",TV,366,7.9,1400000,2004,Pierrot
+14,Dragon Ball Z,"Action, Martial Arts",TV,291,8.1,1100000,1989,Toei Animation
+15,Demon Slayer,"Action, Demons",TV,26,8.6,1700000,2019,ufotable
+16,Sword Art Online,"Action, Adventure, Fantasy",TV,25,7.6,2300000,2012,A-1 Pictures
+17,Tokyo Ghoul,"Action, Horror",TV,12,7.8,1700000,2014,Pierrot
+18,Psycho-Pass,"Action, Sci-Fi",TV,22,8.3,600000,2012,Production I.G
+19,Parasyte,"Action, Horror, Sci-Fi",TV,24,8.3,800000,2014,Madhouse
+20,Neon Genesis Evangelion,"Mecha, Psychological",TV,26,8.5,1000000,1995,Gainax
+21,Samurai Champloo,"Action, Samurai",TV,26,8.5,700000,2004,Manglobe
+22,Trigun,"Action, Sci-Fi",TV,26,8.2,500000,1998,Madhouse
+23,Yu Yu Hakusho,"Action, Supernatural",TV,112,8.5,600000,1992,Pierrot
+24,Jujutsu Kaisen,"Action, Supernatural",TV,24,8.6,1500000,2020,MAPPA
+25,Chainsaw Man,"Action, Horror",TV,12,8.7,1300000,2022,MAPPA
+26,Vinland Saga,"Action, Adventure, Historical",TV,24,8.7,700000,2019,Wit Studio
+27,Made in Abyss,"Adventure, Fantasy",TV,13,8.7,600000,2017,Kinema Citrus
+28,Re:Zero,"Drama, Fantasy",TV,25,8.2,1200000,2016,White Fox
+29,The Promised Neverland,"Mystery, Thriller",TV,12,8.5,900000,2019,CloverWorks
+30,Erased,"Mystery, Thriller",TV,12,8.5,800000,2016,A-1 Pictures
+31,Your Name,"Drama, Romance",Movie,1,8.4,1900000,2016,CoMix Wave Films
+32,A Silent Voice,"Drama, Romance",Movie,1,8.9,1100000,2016,Kyoto Animation
+33,Weathering with You,"Drama, Romance, Fantasy",Movie,1,8.1,900000,2019,CoMix Wave Films
+34,Spirited Away,"Adventure, Fantasy",Movie,1,8.6,1400000,2001,Studio Ghibli
+35,Princess Mononoke,"Adventure, Fantasy",Movie,1,8.4,900000,1997,Studio Ghibli
+36,Haikyuu!!,Sports,TV,85,8.6,1200000,2014,Production I.G
+37,Kuroko no Basket,Sports,TV,75,8.3,800000,2012,Production I.G
+38,Food Wars!,"School, Comedy",TV,24,8.5,900000,2015,J.C.Staff
+39,Dr. Stone,"Adventure, Sci-Fi",TV,24,8.1,800000,2019,TMS Entertainment
+40,The Rising of the Shield Hero,"Action, Adventure, Fantasy",TV,25,8.0,1000000,2019,Kinema Citrus
+41,Overlord,"Action, Fantasy",TV,13,7.9,700000,2015,Madhouse
+42,That Time I Got Reincarnated as a Slime,"Action, Fantasy",TV,24,8.1,1100000,2018,8bit
+43,Konosuba,"Comedy, Fantasy",TV,10,8.1,1200000,2016,Studio Deen
+44,No Game No Life,"Game, Fantasy",TV,12,8.2,900000,2014,Madhouse
+45,Violet Evergarden,"Drama, Fantasy",TV,13,8.6,1000000,2018,Kyoto Animation
+46,Angel Beats!,"Drama, Supernatural",TV,13,8.1,1100000,2010,P.A. Works
+47,Clannad: After Story,"Drama, Romance",TV,24,8.9,900000,2008,Kyoto Animation
+48,Anohana,"Drama, Supernatural",TV,11,8.3,1000000,2011,A-1 Pictures
+49,Your Lie in April,"Drama, Romance, Music",TV,22,8.6,1100000,2014,A-1 Pictures
+50,March Comes in Like a Lion,"Drama, Slice of Life",TV,22,8.4,700000,2016,Shaft
