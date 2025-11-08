@@ -1,0 +1,51 @@
+anime_id,name,genre,type,episodes,rating,members,year,studio
+1,Fullmetal Alchemist: Brotherhood,Action|Adventure|Drama|Fantasy,TV,64,9.26,793665,2009,Bones
+2,Steins;Gate,Sci-Fi|Thriller,TV,24,9.17,673572,2011,White Fox
+3,Hunter x Hunter (2011),Action|Adventure|Shounen,TV,148,9.15,587786,2011,Madhouse
+4,Attack on Titan,Action|Drama|Fantasy|Shounen,TV,25,8.54,934123,2013,Wit Studio
+5,Death Note,Mystery|Psychological|Supernatural|Thriller,TV,37,8.71,876543,2006,Madhouse
+6,One Punch Man,Action|Comedy|Parody|Sci-Fi|Seinen,TV,12,8.58,765432,2015,Madhouse
+7,Cowboy Bebop,Action|Adventure|Drama|Sci-Fi,TV,26,8.82,543210,1998,Sunrise
+8,Naruto,Action|Adventure|Comedy|Shounen,TV,220,7.98,654321,2002,Studio Pierrot
+9,My Hero Academia,Action|Comedy|School|Shounen,TV,13,8.19,789012,2016,Bones
+10,Demon Slayer: Kimetsu no Yaiba,Action|Demons|Historical|Shounen,TV,26,8.73,876543,2019,ufotable
+11,Tokyo Ghoul,Action|Drama|Horror|Mystery|Psychological|Seinen,TV,12,8.01,765432,2014,Studio Pierrot
+12,Sword Art Online,Action|Adventure|Fantasy|Romance,TV,25,7.64,987654,2012,A-1 Pictures
+13,Code Geass: Lelouch of the Rebellion,Action|Drama|Mecha|Military|Sci-Fi,TV,25,8.83,654321,2006,Sunrise
+14,One Piece,Action|Adventure|Comedy|Drama|Fantasy|Shounen,TV,1000,8.57,543210,1999,Toei Animation
+15,Mob Psycho 100,Action|Comedy|Slice of Life|Supernatural,TV,12,8.54,432109,2016,Bones
+16,Violet Evergarden,Drama|Fantasy|Slice of Life,TV,13,8.71,345678,2018,Kyoto Animation
+17,Spirited Away,Adventure|Drama|Romance|Supernatural,Movie,1,8.93,234567,2001,Studio Ghibli
+18,Your Name,Drama|Romance|School|Supernatural,Movie,1,9.01,876543,2016,CoMix Wave Films
+19,Neon Genesis Evangelion,Action|Drama|Mecha|Psychological|Sci-Fi,TV,26,8.35,765432,1995,Gainax
+20,Dragon Ball Z,Action|Adventure|Comedy|Fantasy|Martial Arts|Shounen,TV,291,8.19,654321,1989,Toei Animation
+21,Assassination Classroom,Action|Comedy|School|Shounen,TV,22,8.21,543210,2015,Lerche
+22,Parasyte,Action|Drama|Horror|Psychological|Sci-Fi|Seinen,TV,24,8.50,456789,2014,Madhouse
+23,The Promised Neverland,Mystery|Psychological|Sci-Fi|Shounen|Thriller,TV,12,8.66,567890,2019,CloverWorks
+24,Re:Zero,Drama|Fantasy|Psychological|Thriller,TV,25,8.35,678901,2016,White Fox
+25,Haikyuu!!,Comedy|Drama|School|Shounen|Sports,TV,25,8.61,456789,2014,Production I.G
+26,Black Clover,Action|Comedy|Fantasy|Magic|Shounen,TV,170,7.89,345678,2017,Studio Pierrot
+27,Jujutsu Kaisen,Action|Demons|School|Shounen|Supernatural,TV,24,8.78,789012,2020,MAPPA
+28,Vinland Saga,Action|Adventure|Drama|Historical,TV,24,8.81,234567,2019,Wit Studio
+29,Made in Abyss,Adventure|Drama|Fantasy|Mystery,TV,13,8.83,123456,2017,Kinema Citrus
+30,A Silent Voice,Drama|School,Movie,1,9.02,456789,2016,Kyoto Animation
+31,Anohana,Drama|Slice of Life|Supernatural,TV,11,8.51,345678,2011,A-1 Pictures
+32,Clannad: After Story,Drama|Fantasy|Romance|Slice of Life,TV,24,9.06,567890,2008,Kyoto Animation
+33,Fate/Zero,Action|Fantasy|Supernatural,TV,13,8.44,678901,2011,ufotable
+34,Gurren Lagann,Action|Adventure|Comedy|Mecha|Sci-Fi,TV,27,8.69,456789,2007,Gainax
+35,No Game No Life,Adventure|Comedy|Ecchi|Fantasy|Game,TV,12,8.32,789012,2014,Madhouse
+36,The Rising of the Shield Hero,Action|Adventure|Drama|Fantasy,TV,25,8.23,567890,2019,Kinema Citrus
+37,Fairy Tail,Action|Adventure|Comedy|Fantasy|Magic|Shounen,TV,175,7.98,456789,2009,A-1 Pictures
+38,Bleach,Action|Adventure|Comedy|Shounen|Supernatural,TV,366,8.01,543210,2004,Studio Pierrot
+39,Fruits Basket,Drama|Fantasy|Romance|Slice of Life|Supernatural,TV,25,8.62,234567,2019,TMS Entertainment
+40,Food Wars!,Ecchi|School|Shounen,TV,24,8.26,456789,2015,J.C.Staff
+41,Berserk,Action|Adventure|Demons|Drama|Fantasy|Horror|Military,TV,25,8.59,345678,1997,OLM
+42,Monster,Drama|Horror|Mystery|Police|Psychological|Seinen,TV,74,8.87,123456,2004,Madhouse
+43,Great Teacher Onizuka,Comedy|Drama|School|Shounen|Slice of Life,TV,43,8.71,234567,1999,Studio Pierrot
+44,Samurai Champloo,Action|Adventure|Comedy|Historical,TV,26,8.56,456789,2004,Manglobe
+45,Erased,Mystery|Psychological|Seinen|Supernatural,TV,12,8.49,567890,2016,A-1 Pictures
+46,Psycho-Pass,Action|Police|Psychological|Sci-Fi,TV,22,8.45,678901,2012,Production I.G
+47,K-On!,Comedy|Music|School|Slice of Life,TV,13,7.89,345678,2009,Kyoto Animation
+48,The Devil is a Part-Timer!,Comedy|Demons|Fantasy|Romance,TV,13,8.12,456789,2013,White Fox
+49,Overlord,Action|Adventure|Fantasy|Game,TV,13,7.98,567890,2015,Madhouse
+50,Toradora!,Comedy|Drama|Romance|School|Slice of Life,TV,25,8.42,678901,2008,J.C.Staff
