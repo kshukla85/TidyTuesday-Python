@@ -39,4 +39,4 @@ if "genre" in anime.columns:
     print(top_genres)
 
 print("\n🎉 Simple analysis complete!")
-
+#change
