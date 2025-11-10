@@ -2,41 +2,37 @@ import pandas as pd
 
 # --- 1️⃣ Load the data ---
 anime = pd.read_csv("/Users/kunalshukla/Desktop/TidyTuesday-Python-1/py1/data/anime.csv")
+animelist = pd.read_csv("/Users/kunalshukla/Desktop/TidyTuesday-Python-1/py1/data/animelist.csv")
+anime_with_synopsis = pd.read_csv("/Users/kunalshukla/Desktop/TidyTuesday-Python-1/py1/data/anime_with_synopsis.csv")
+anime_rating = pd.read_csv("/Users/kunalshukla/Desktop/TidyTuesday-Python-1/py1/data/rating_complete.csv")
+anime_watching_status = pd.read_csv("/Users/kunalshukla/Desktop/TidyTuesday-Python-1/py1/data/watching_status.csv")
 
 print("✅ Data loaded successfully!")
 print(f"Rows: {len(anime)}, Columns: {len(anime.columns)}\n")
 
-# --- 2️⃣ Take a quick look ---
-print("🔹 First 5 rows:")
+# --- 2️⃣ Quick look ---
+print("🔹 anime:")
 print(anime.head(), "\n")
+print("🔹 animelist:")
+print(animelist.head(), "\n")
+print("🔹 anime_rating:")
+print(anime_rating.head(), "\n")
+print("🔹 anime_watching_status:")
+print(anime_watching_status.head(10), "\n")
 
-# --- 3️⃣ Clean up column names ---
-anime.columns = anime.columns.str.lower().str.strip()
+anime["Score"] = pd.to_numeric(anime["Score"], errors = "coerce")
+anime["Episodes"] = pd.to_numeric(anime["Episodes"], errors = "coerce")
 
-# --- 4️⃣ Basic summaries ---
-if "rating" in anime.columns:
-    print("📊 Average rating:", round(anime["rating"].mean(), 2))
-    print("📈 Highest rating:", anime["rating"].max())
-    print("📉 Lowest rating:", anime["rating"].min())
-else:
-    print("⚠️ No 'rating' column found in dataset.")
+# --- 3️⃣ Aggregate example ---
+# Group by anime name and summarize key metrics
+watch_agg = anime.groupby("Name").agg(
+    avg_score=("Score", "mean"),
+    num_genres=("Genres", "nunique"),
+    total_episodes=("Episodes", "sum")
+).reset_index()
 
-if "type" in anime.columns:
-    print("\n🎬 Count by anime type:")
-    print(anime["type"].value_counts())
+# Optional derived metric: score per genre
+watch_agg["score_per_genre"] = watch_agg["avg_score"] / watch_agg["num_genres"]
 
-if "genre" in anime.columns:
-    print("\n🎭 Top 5 most common genres:")
-    top_genres = (
-        anime["genre"]
-        .dropna()
-        .str.split(",")
-        .explode()
-        .str.strip()
-        .value_counts()
-        .head(5)
-    )
-    print(top_genres)
-
-print("\n🎉 Simple analysis complete!")
-#change
+print("✅ Aggregation complete!")
+print(watch_agg.head(10))
