@@ -9,6 +9,10 @@
 [List all relevant codes, identifiers, or reference lists needed for the query.]
 Test Codes, etc
 
+For question 1, I did a count with having `diagnosis_id` greater than 1 to find patients with multiple diagnoses. They have multiple diagnoses with the same disease because the disease has progressed.
+
+For question 2, I am counting patients who recieved surgery, and then surgery by stage using the count aggregate function.
+
 [Notes: ]
 ---
 
@@ -111,3 +115,14 @@ Here's the data formatted as a markdown table:
 - **Patient 15**: Thyroid Cancer progressed from Stage I (2021) to Stage II (2024) - **3 years apart**
 
 **Why they have multiple diagnoses:** These represent **cancer progression/recurrence** of the same cancer type at different time points with advancing stages, not different primary cancers.
+
+
+# 2. Patients who had Surgery
+
+| Metric                              | Count |
+|-------------------------------------|-------|
+| Patients with Surgery    | 5     |
+
+| Stage | Treatment Count |
+|-------|-----------------|
+| Stage I | 5 |
