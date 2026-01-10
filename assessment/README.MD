@@ -1,4 +1,4 @@
-# Query Setup: [tempus_assessment]
+# Query Setup: [assessment]
 
 ## 1. Business Question
 [In 1–2 sentences, describe in plain language what this query aims to answer.]
