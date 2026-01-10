@@ -1,0 +1,11 @@
+patient_id,gender,birth_date,country,diagnosis_id,cancer_type,stage,diagnosis_date
+1,Female,1975-04-12,USA,121,Breast Cancer,Stage I,2015-02-10
+1,Female,1975-04-12,USA,101,Breast Cancer,Stage II,2020-03-15
+2,Male,1968-09-30,USA,122,Lung Cancer,Stage I,2012-03-18
+2,Male,1968-09-30,USA,102,Lung Cancer,Stage III,2019-07-10
+6,Male,1972-03-14,Germany,123,Prostate Cancer,Stage I,2015-07-01
+6,Male,1972-03-14,Germany,106,Prostate Cancer,Stage II,2020-10-11
+10,Male,1980-10-10,Canada,110,Lymphoma,Stage II,2020-02-02
+10,Male,1980-10-10,Canada,124,Lymphoma,Stage III,2023-01-09
+15,Female,1992-04-17,France,115,Thyroid Cancer,Stage I,2021-06-10
+15,Female,1992-04-17,France,125,Thyroid Cancer,Stage II,2024-02-14
