@@ -13,22 +13,36 @@ Test Codes, etc
 ---
 
 ## 3. Data Locations
-[Specify where the data lives and which columns are relevant.]
 
 | Schema | Table | Column | Notes |
 |--------|-------|--------|-------|
-| [schema_name] | [table_name] | [column_name] | [Purpose of this column] |
-| [schema_name] | [table_name] | [column_name] | [Purpose of this column] |
+| [diagnosis] | [diagnosis] | [diagnosis_id] | [Unique diagnosis id] |
+| [diagnosis] | [diagnosis] | [patient_id] | [Unique patient identifier] |
+| [diagnosis] | [diagnosis] | [cancer_type] | [type of cancer] |
+| [diagnosis] | [diagnosis] | [stage] | [stage of cancer] |
+| [diagnosis] | [diagnosis] | [diagnosis_date] | [date of diagnosis] |
+| [patient] | [patient] | [gender] | [gender] |
+| [patient] | [patient] | [birth_date] | [birth date] |
+| [patient] | [patient] | [country] | [patient's country] |
 
+Properties:
+patient_id - Unique patient identifer
+gender - patient gender
+birth_date - patient birth date
+country - patient's country
+diagnosis_id - unique diagnosis identifier
+cancer_type - type of cancer
+stage - stage of cancer
+diagnosis_date - date of diagnosis
 ---
 
 ## 4. Caveats & Limitations
-[Document any issues, constraints, or quirks with the data or logic.]
+No quirks with data logic.
 
 ---
 
 ## 6. Additional Notes
-[Any other helpful context or setup instructions.]
+No additional notes.
 
 ---
 
