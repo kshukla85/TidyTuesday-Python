@@ -1,7 +1,19 @@
 # Query Setup: [assessment]
 
 ## 1. Business Question
-[In 1–2 sentences, describe in plain language what this query aims to answer.]
+1. Count of patients with multiple diagnoses. Why do these patients have more than one
+diagnosis (what in the data is resulting in more than one diagnosis entry)? Please
+provide:
+a. The count of patients with multiple diagnoses
+
+b. The reason why they have multiple diagnoses
+c. Output the data for these patients showing why they have multiple diagnoses
+2. Count of patients who received surgery. Distribution of patients who received surgery by
+stage.
+3. Count of patients who started treatment in 2020 or after.
+4. Average survival months by cancer type.
+5. Count of patients with a BRCA mutation. How many of these patients have a pathogenic
+BRCA mutation?
 
 ---
 
