@@ -126,3 +126,40 @@ Here's the data formatted as a markdown table:
 | Stage | Treatment Count |
 |-------|-----------------|
 | Stage I | 5 |
+
+
+# 3. 
+
+| Treatment | Patient Count |
+|-------|-----------------|
+| All treatments | 13 |
+
+# 4. 
+
+| avg_survival_months | cancer_type |
+|---------------------|-------------|
+| 30.6 | Breast Cancer |
+| 25.0 | Cervical Cancer |
+| 27.0 | Colon Cancer |
+| 18.5 | Leukemia |
+| 19.0 | Liver Cancer |
+| 19.0 | Lung Cancer |
+| 28.0 | Lymphoma |
+| 48.0 | Ovarian Cancer |
+| 10.0 | Pancreatic Cancer |
+| 30.0 | Prostate Cancer |
+| 7.0 | Stomach Cancer |
+| 26.0 | Thyroid Cancer |
+
+# 5.
+
+| gene | patient_count |
+|------|---------------|
+| BRCA1 | 3 |
+| BRCA2 | 3 |
+
+
+| gene | clinical_significance | patient_count |
+|------|----------------------|---------------|
+| BRCA1 | Pathogenic | 2 |
+| BRCA2 | Pathogenic | 2 |

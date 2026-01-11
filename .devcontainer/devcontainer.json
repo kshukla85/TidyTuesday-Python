@@ -11,7 +11,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"GitHub.copilot"
+				"GitHub.copilot",
+				"dorzey.vscode-sqlfluff"
 			],
 			"settings": {
 				
