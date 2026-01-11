@@ -18,12 +18,16 @@ BRCA mutation?
 ---
 
 ## 2. Required Codes and concepts
-[List all relevant codes, identifiers, or reference lists needed for the query.]
-Test Codes, etc
 
 For question 1, I did a count with having `diagnosis_id` greater than 1 to find patients with multiple diagnoses. They have multiple diagnoses with the same disease because the disease has progressed.
 
-For question 2, I am counting patients who recieved surgery, and then surgery by stage using the count aggregate function.
+For question 2, I am counting patients who recieved surgery, and then surgery by `stage` using the count aggregate function.
+
+For question 3, I am counting by `patient_id` and I am filtering by `start_date`.
+
+For question 4, I took the avg of `survival_months`, and then the avg by `stage`.
+
+For question 5, I took a count of patients filtering by the BRCA pathogenic mutation using `gene` and `clinical significance`.
 
 [Notes: ]
 ---
@@ -40,6 +44,8 @@ For question 2, I am counting patients who recieved surgery, and then surgery by
 | [patient] | [patient] | [gender] | [gender] |
 | [patient] | [patient] | [birth_date] | [birth date] |
 | [patient] | [patient] | [country] | [patient's country] |
+| [outcomes] | [outcomes] | [gene] | [the gene] |
+| [outcomes] | [outcomes] | [clinical_signficance] | [pathogenic versus benign] |
 
 Properties:
 patient_id - Unique patient identifer
@@ -50,6 +56,8 @@ diagnosis_id - unique diagnosis identifier
 cancer_type - type of cancer
 stage - stage of cancer
 diagnosis_date - date of diagnosis
+gene - a gene
+clinical_significance - pathogenic versus benign
 ---
 
 ## 4. Caveats & Limitations
