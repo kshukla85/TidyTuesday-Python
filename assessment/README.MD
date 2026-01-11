@@ -75,7 +75,7 @@ No additional notes.
 - **Date:** [2026-01-09]
 
 
-# Question 1a: Count of Patients with Multiple Diagnoses
+# 1: Count of patients with multiple diagnoses. Why do these patients have more than one diagnosis (what in the data is resulting in more than one diagnosis entry)? Please provide: a. The count of patients with multiple diagnoses b. The reason why they have multiple diagnoses c. Output the data for these patients showing why they have multiple diagnoses
 
 | Metric                              | Count |
 |-------------------------------------|-------|
@@ -137,7 +137,7 @@ Here's the data formatted as a markdown table:
 **Why they have multiple diagnoses:** These represent **cancer progression/recurrence** of the same cancer type at different time points with advancing stages, not different primary cancers.
 
 
-# 2. Patients who had Surgery
+# 2. Count of patients who received surgery. Distribution of patients who received surgery by stage.
 
 | Metric                              | Count |
 |-------------------------------------|-------|
@@ -148,13 +148,13 @@ Here's the data formatted as a markdown table:
 | Stage I | 5 |
 
 
-# 3. 
+# 3. Count of patients who started treatment in 2020 or after.
 
 | Treatment | Patient Count |
 |-------|-----------------|
 | All treatments | 13 |
 
-# 4. 
+# 4. Average survival months by cancer type.
 
 | avg_survival_months | cancer_type |
 |---------------------|-------------|
@@ -171,7 +171,7 @@ Here's the data formatted as a markdown table:
 | 7.0 | Stomach Cancer |
 | 26.0 | Thyroid Cancer |
 
-# 5.
+# 5. Count of patients with a BRCA mutation. How many of these patients have a pathogenic BRCA mutation?
 
 | gene | patient_count |
 |------|---------------|
