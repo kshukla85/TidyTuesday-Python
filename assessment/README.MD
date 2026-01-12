@@ -21,15 +21,15 @@ BRCA mutation?
 
 For question 1, I did a count with having `diagnosis_id` greater than 1 to find patients with multiple diagnoses. They have multiple diagnoses with the same disease because the disease has progressed.
 
-For question 2, I am counting patients who recieved surgery, and then surgery by `stage` using the count aggregate function.
+For question 2, I am counting patients who recieved surgery, and then surgery by `stage` using the count aggregate function. Then, I joined the tables `treatment` and `diagnosis` to get the surgery by stage.
 
-For question 3, I am counting by `patient_id` and I am filtering by `start_date`.
+For question 3, I am counting by `patient_id` and I am filtering by `start_date`. Then, I joined the tables `treatment` and `diagnosis` to get treatment in 2020 and after.
 
-For question 4, I took the avg of `survival_months`, and then the avg by `stage`.
+For question 4, I took the avg of `survival_months`, and then the avg by `stage`. Also, I joined the tables `outcomes` and `diagnosis` to get the average survival months.
 
-For question 5, I took a count of patients filtering by the BRCA pathogenic mutation using `gene` and `clinical significance`.
+For question 5, I took a count of patients filtering by the BRCA pathogenic mutation using `gene` and `clinical significance`. Also, I joined the tables `diagnosis` and `sequencing` to BRCA by clinical significance.
 
-[Notes: ]
+[Notes: None]
 ---
 
 ## 3. Data Locations
