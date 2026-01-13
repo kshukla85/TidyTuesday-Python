@@ -63,6 +63,7 @@ clinical_significance - pathogenic versus benign
 ## 4. Caveats & Limitations
 No quirks with data logic.
 
+In a real world setting, I would not advise conflating different patient groups, i.e. patients in remission, deceased, or having ongoing treatment for an arithmetic average. There wasn't a big sample size, so I didn't stratify the different groups based on status.
 ---
 
 ## 6. Additional Notes
@@ -96,7 +97,7 @@ No additional notes.
 
 ---
 
-## Summary
+## Summary of Question 1
 
 ✓ **5 patients** have multiple diagnosis records in the database.
 
@@ -147,12 +148,14 @@ Here's the data formatted as a markdown table:
 |-------|-----------------|
 | Stage I | 5 |
 
+## Summary
+This observation aligns with real-world expectations: as cancer progresses to later stages, it typically becomes more inoperable. This underscores the importance of early detection and intervention in cancer treatment.
 
 # 3. Count of patients who started treatment in 2020 or after.
 
 | Treatment | Patient Count |
 |-------|-----------------|
-| All treatments | 13 |
+| Post 2020 treatments | 13 |
 
 # 4. Average survival months by cancer type.
 
@@ -170,6 +173,9 @@ Here's the data formatted as a markdown table:
 | 30.0 | Prostate Cancer |
 | 7.0 | Stomach Cancer |
 | 26.0 | Thyroid Cancer |
+
+# Summary
+
 
 # 5. Count of patients with a BRCA mutation. How many of these patients have a pathogenic BRCA mutation?
 
