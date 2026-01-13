@@ -71,6 +71,8 @@ I could have added a second table above for question 4 which shows the average s
 
 For question 3, one patient had two treatments for chemotherapy and radiation starting after 2020, and so I am including them both as part of the count for post 2020 treatment.
 
+There is a patient with two diagnosis_ids for BRCA with a pathogenic mutation and separately a likely benign mutation for question 5.
+
 ---
 
 ## 6. Additional Notes
