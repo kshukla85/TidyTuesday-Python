@@ -64,18 +64,16 @@ clinical_significance - pathogenic versus benign
 
 ## 4. Caveats & Limitations
 
-In a real world setting, I would not advise conflating different patient groups, i.e. patients in remission, deceased, or having ongoing treatment for an arithmetic average. There wasn't a big sample size, so I didn't stratify the different groups based on status. 
+Q3: One patient had two treatments for chemotherapy and radiation starting after 2020, and so I am including them both as part of the count for post 2020 treatment.
 
-I could have added a second table above for question 4 which shows the average survival months separated by status because I think it is more accurate than taking the average surival months by cancer type and not separating the average survival months by status.
+Q4: I could have added a second table above which shows the average survival months separated by status because I think it is more accurate than taking the average surival months by cancer type and not separating the average survival months by status.
 
-For question 3, one patient had two treatments for chemotherapy and radiation starting after 2020, and so I am including them both as part of the count for post 2020 treatment.
-
-There is a patient with two diagnosis_ids for BRCA with a pathogenic mutation and separately a likely benign mutation for question 5.
+Q5: There is a patient with two diagnosis_ids for BRCA1 with a pathogenic mutation and separately a likely benign mutation.
 
 ---
 
 ## 6. Additional Notes
-No additional notes.
+Q4: In a real world setting, I would not advise conflating different patient groups, i.e. patients in remission, deceased, or having ongoing treatment for an arithmetic average. There wasn't a big sample size, so I didn't stratify the different groups based on status. 
 
 ---
 
