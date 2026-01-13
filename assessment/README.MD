@@ -69,6 +69,8 @@ In a real world setting, I would not advise conflating different patient groups,
 
 I could have added a second table above for question 4 which shows the average survival months separated by status because I think it is more accurate than taking the average surival months by cancer type and not separating the average survival months by status.
 
+For question 3, one patient had two treatments for chemotherapy and radiation starting after 2020, and so I am including them both as part of the count for post 2020 treatment.
+
 ---
 
 ## 6. Additional Notes
