@@ -161,7 +161,7 @@ This observation aligns with real-world expectations: as cancer progresses to la
 
 | Treatment | Patient Count |
 |-------|-----------------|
-| Post 2020 treatments | 13 |
+| Post 2020 treatments | 16 |
 
 # 4. Average survival months by cancer type.
 
