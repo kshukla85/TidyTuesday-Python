@@ -5,11 +5,11 @@
 diagnosis (what in the data is resulting in more than one diagnosis entry)? Please
 provide:
 
-a. The count of patients with multiple diagnoses
+    a. The count of patients with multiple diagnoses
 
-b. The reason why they have multiple diagnoses
+    b. The reason why they have multiple diagnoses
 
-c. Output the data for these patients showing why they have multiple diagnoses
+    c. Output the data for these patients showing why they have multiple diagnoses
 
 2. Count of patients who received surgery. Distribution of patients who received surgery by
 stage.
@@ -25,17 +25,17 @@ BRCA mutation?
 
 ## 2. Required Codes and concepts
 
-For question 1, I did a count with having `patient_id` greater than 1 to find patients with multiple diagnoses using the `diagnosis` table. They have multiple diagnoses with the same disease because the disease has progressed. [count_diag](count_diag.sql) , [mult_diag_details](mult_diag_details.sql)
+Q1: I did a count with having `patient_id` greater than 1 to find patients with multiple diagnoses using the `diagnosis` table. They have multiple diagnoses with the same disease because the disease has progressed. [count_diag](count_diag.sql) , [mult_diag_details](mult_diag_details.sql)
 
 
-For question 2, I am counting patients who recieved surgery, and then surgery by `stage` using the count aggregate function. I joined the tables `treatment` and `diagnosis` to get the surgery by stage.
+Q2: I am counting patients who recieved surgery, and then surgery by `stage` using the count aggregate function. I joined the tables `treatment` and `diagnosis` to get the surgery by stage.
 [surgery](surgery.sql) , [surgery_by_stage](surgery_by_stage.sql)
 
-For question 3, I am counting by `patient_id` and I am filtering by `start_date`. I joined the tables `treatment` and `diagnosis` to get treatment in 2020 and after. [2020_patient_treatment](2020_patient_treament.sql)
+Q3: I am counting by `patient_id` and I am filtering by `start_date`. I joined the tables `treatment` and `diagnosis` to get treatment in 2020 and after. [2020_patient_treatment](2020_patient_treament.sql)
 
-For question 4, I took the avg of `survival_months` by stage. Also, I joined the tables `outcomes` and `diagnosis` to get the average survival months by stage. [avg_survival_months](avg_survival_months.sql)
+Q4: I took the avg of `survival_months` by stage. Also, I joined the tables `outcomes` and `diagnosis` to get the average survival months by stage. [avg_survival_months](avg_survival_months.sql)
 
-For question 5, I took a count of patients filtering by the BRCA pathogenic mutation using `gene` and `clinical significance`. Also, I joined the tables `diagnosis` and `sequencing` to BRCA by clinical significance. [count_patients_w_brca](count_patients_w_brca.sql) , [count_path_patient_brca](count_path_patient_brca.sql)
+Q5: I took a count of patients filtering by the BRCA pathogenic mutation using `gene` and `clinical significance`. Also, I joined the tables `diagnosis` and `sequencing` to BRCA by clinical significance. [count_patients_w_brca](count_patients_w_brca.sql) , [count_path_patient_brca](count_path_patient_brca.sql)
 
 [Notes: None]
 ---
