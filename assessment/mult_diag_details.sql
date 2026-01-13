@@ -14,6 +14,6 @@ WHERE d.patient_id IN (
     SELECT patient_id
     FROM Diagnosis
     GROUP BY patient_id
-    HAVING COUNT(diagnosis_id) > 1
+    HAVING COUNT(patient_id) > 1
 )
 ORDER BY d.patient_id, d.diagnosis_date;

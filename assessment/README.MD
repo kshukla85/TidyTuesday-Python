@@ -19,7 +19,8 @@ BRCA mutation?
 
 ## 2. Required Codes and concepts
 
-For question 1, I did a count with having `diagnosis_id` greater than 1 to find patients with multiple diagnoses. They have multiple diagnoses with the same disease because the disease has progressed.
+For question 1, I did a count with having `patient_id` greater than 1 to find patients with multiple diagnoses using the `diagnosis` table. They have multiple diagnoses with the same disease because the disease has progressed. [count_diag](assessment/count_diag.sql)
+
 
 For question 2, I am counting patients who recieved surgery, and then surgery by `stage` using the count aggregate function. Then, I joined the tables `treatment` and `diagnosis` to get the surgery by stage.
 
@@ -126,6 +127,7 @@ Here's the data formatted as a markdown table:
 | 10         | Male   | 1980-10-10 | Canada  | 124          | Lymphoma         | Stage III | 2023-01-09     |
 | 15         | Female | 1992-04-17 | France  | 115          | Thyroid Cancer   | Stage I   | 2021-06-10     |
 | 15         | Female | 1992-04-17 | France  | 125          | Thyroid Cancer   | Stage II  | 2024-02-14     |
+
 
 ---
 

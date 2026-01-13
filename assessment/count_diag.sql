@@ -7,6 +7,6 @@ FROM (
     SELECT patient_id
     FROM Diagnosis
     GROUP BY patient_id
-    HAVING COUNT(diagnosis_id) > 1
+    HAVING COUNT(patient_id) > 1
 );
 
