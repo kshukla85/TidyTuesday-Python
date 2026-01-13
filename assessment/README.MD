@@ -63,7 +63,9 @@ clinical_significance - pathogenic versus benign
 ## 4. Caveats & Limitations
 No quirks with data logic.
 
-In a real world setting, I would not advise conflating different patient groups, i.e. patients in remission, deceased, or having ongoing treatment for an arithmetic average. There wasn't a big sample size, so I didn't stratify the different groups based on status.
+In a real world setting, I would not advise conflating different patient groups, i.e. patients in remission, deceased, or having ongoing treatment for an arithmetic average. There wasn't a big sample size, so I didn't stratify the different groups based on status. 
+
+I could have added a second table above for question 4 which shows the average survival months separated by status because I think it is more accurate than taking the average surival months by cancer type and not separating the average survival months by status.
 ---
 
 ## 6. Additional Notes
@@ -174,31 +176,6 @@ This observation aligns with real-world expectations: as cancer progresses to la
 | 7.0 | Stomach Cancer |
 | 26.0 | Thyroid Cancer |
 
-Avg survival months separated by status:
-
-| avg_survival_months | cancer_type       | status            |
-| ------------------: | ----------------- | ----------------- |
-|                14.0 | Breast Cancer     | Deceased          |
-|                34.0 | Breast Cancer     | Ongoing Treatment |
-|                35.0 | Breast Cancer     | Remission         |
-|                25.0 | Cervical Cancer   | Remission         |
-|                18.0 | Colon Cancer      | Deceased          |
-|                36.0 | Colon Cancer      | Remission         |
-|                15.0 | Leukemia          | Deceased          |
-|                22.0 | Leukemia          | Ongoing Treatment |
-|                19.0 | Liver Cancer      | Deceased          |
-|                16.5 | Lung Cancer       | Deceased          |
-|                24.0 | Lung Cancer       | Remission         |
-|                28.0 | Lymphoma          | Remission         |
-|                48.0 | Ovarian Cancer    | Ongoing Treatment |
-|                10.0 | Pancreatic Cancer | Deceased          |
-|                30.0 | Prostate Cancer   | Remission         |
-|                 7.0 | Stomach Cancer    | Deceased          |
-|                26.0 | Thyroid Cancer    | Remission         |
-
-
-# Summary
-The second table above for question 4 shows the average survival months separated by status, which I think is more accurate than taking the average surival months by cancer type and not separating the average survival months by status.
 
 # 5. Count of patients with a BRCA mutation. How many of these patients have a pathogenic BRCA mutation?
 
