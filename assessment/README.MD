@@ -63,7 +63,10 @@ clinical_significance - pathogenic versus benign
 ## 4. Caveats & Limitations
 No quirks with data logic.
 
-In a real world setting, I would not advise conflating different patient groups, i.e. patients in remission, deceased, or having ongoing treatment for an arithmetic average. There wasn't a big sample size, so I didn't stratify the different groups based on status. I could have added a second table above for question 4 which shows the average survival months separated by status because I think it is more accurate than taking the average surival months by cancer type and not separating the average survival months by status.
+In a real world setting, I would not advise conflating different patient groups, i.e. patients in remission, deceased, or having ongoing treatment for an arithmetic average. There wasn't a big sample size, so I didn't stratify the different groups based on status. 
+
+I could have added a second table above for question 4 which shows the average survival months separated by status because I think it is more accurate than taking the average surival months by cancer type and not separating the average survival months by status.
+
 ---
 
 ## 6. Additional Notes
